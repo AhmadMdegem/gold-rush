@@ -1,0 +1,36 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.grid-item {
+  padding: 20px;
+}
+
+body {
+  background-color: #ecf0f1;
+  font-family: 'Balthazar', serif;
+}
+
+.result {
+  height: 100px;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.score {
+  font-size: 30px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 5px;
+}
+button{
+  margin-left: 50%;
+  margin-top: 42px;
+  padding: 5px;
+  background-color: aqua;
+}
+.score1{
+  margin-top: 37px;
+}
